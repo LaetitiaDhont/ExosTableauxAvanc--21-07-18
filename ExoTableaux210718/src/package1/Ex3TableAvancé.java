@@ -12,7 +12,7 @@ public class Ex3TableAvancé {
 		int[] tab = {12, 15, 13, 10, 8, 9, 13, 14};
 		boolean isHere = false;
 		System.out.println("Veuillez choisir un nombre entier : ");
-		int input = System.in.read();
+		int input = (int) System.in.read();
 		
 		for (int i=0; i<tab.length; i++) {
 			if (tab[i] == input) {
