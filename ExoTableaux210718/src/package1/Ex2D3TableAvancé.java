@@ -7,7 +7,7 @@ import java.util.Scanner;
 tableau. Au cas où la réponse est positive, l’indice de cet entier dans le tableau est affiché. S’il y a
 plusieurs occurrences, le dernier indice est affiché.
  */
-public class Ex4TableAvancé {
+public class Ex2D3TableAvancé {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,10 +17,10 @@ public class Ex4TableAvancé {
 		int i;
 		System.out.println("Veuillez écrire un nombre à chercher:");
 		sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		int input = sc.nextInt();
 		
 		for (i = 0; i<tab.length;i++) {
-			if (tab[i] == n) {
+			if (tab[i] == input) {
 				index = i;
 			}
 		}

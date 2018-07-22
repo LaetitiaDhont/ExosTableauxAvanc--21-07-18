@@ -1,9 +1,13 @@
 package package1;
-
+/*
+ * *
+ * Ecrire un programme qui saisit un entier au clavier et qui recherche si cet entier appartient au tableau (réponse de type oui/non).
+ */
+ 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Exo3TableAvancév2 {
+public class Ex1D3RealTableAvancé {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub

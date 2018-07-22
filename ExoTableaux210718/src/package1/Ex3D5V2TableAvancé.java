@@ -1,20 +1,19 @@
 package package1;
 /*
  * Ecrire un programme qui saisit 10 caractères au clavier, puis ensuite, calcule le nombre de majuscules,
-et le nombre de lettres dans ce tableau. Un caractère n’est pas forcément une lettre : ce peut être un chiffre,
-un signe de ponctuation, un caractère spécial.
- */
-import java.io.IOException;
-/*
- * Ecrire un programme qui saisit 10 caractères au clavier, puis ensuite, calcule le nombre de majuscules,
+
 et le nombre de lettres dans ce tableau. Un caractère n’est pas forcément une lettre : ce peut être un chiffre,
 un signe de ponctuation, un caractère spécial.
 
-Pour cette question, on ne considère que les lettres sans accent. Pour déterminer si un caractère est
-une lettre, on utilise l’ordre sur les caractères. Est une lettre tout caractère compris entre ’a’ et ’z’ et entre
-’A’ et ’Z’. Est un majuscule tout caractère compris entre ’A’ et ’Z’.
+Ecrire le même programme en utilisant les deux méthodes suivantes pour déterminer si un caractère est
+une lettre et une majuscule.
+– Character.isLetter qui prend en paramètre un caractère et renvoie un boolean.
+– Character.isUppercase qui prend en paramètre un caractère et renvoie un boolean.
+
  */
-public class Ex1TableAvancé {
+import java.io.IOException;
+
+public class Ex3D5V2TableAvancé {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -29,20 +28,17 @@ public class Ex1TableAvancé {
 		}
 		
 		for (int i = 0; i<tab.length; i++) {
-			if ((tab[i] >= 'A') && (tab[i] <= 'Z')) {
+			if (Character.isUpperCase(tab[i])) {
 				numberLetter++;
 				numberUppercase++;
 			}
-			else if ((tab[i] >= 'a') && (tab[i] <= 'z')) {
+			else if (Character.isLetter(tab[i])) {
 				numberLetter++;
 			}
 		}
 		
 		System.out.println("Le nombre de majuscules: " + numberUppercase);
 		System.out.println("Le nombre de lettres :" + numberLetter);
-		
-		
-		
 		
 	}
 
