@@ -20,7 +20,7 @@ public class Ex3D5TableAvancé {
 		// TODO Auto-generated method stub
 		char[] tab;
 		int numberLetter = 0;
-		int numberUppercase =0;
+		int numberUppercase = 0;
 		
 		tab = new char [10];
 		for (int i = 0; i<tab.length; i++) {
