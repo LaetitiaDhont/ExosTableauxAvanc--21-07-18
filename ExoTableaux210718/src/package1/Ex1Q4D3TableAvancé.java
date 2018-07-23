@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Ecrire un programme qui saisit deux indices et échange les valeurs contenues dans le tableau à ces deux indices. 
  * Le programme affichera le contenu du tableau avant et après cette transformation..
  */
-public class Ex4D3TableAvancé {
+public class Ex1Q4D3TableAvancé {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

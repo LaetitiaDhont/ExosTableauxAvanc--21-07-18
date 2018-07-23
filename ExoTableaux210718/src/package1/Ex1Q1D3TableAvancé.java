@@ -5,7 +5,7 @@ import java.io.IOException;
 /*
  * Ecrire un programme qui saisit un entier au clavier et qui recherche si cet entier appartient au tableau (réponse de type oui/non).
  */
-public class Ex1D3TableAvancé {
+public class Ex1Q1D3TableAvancé {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub

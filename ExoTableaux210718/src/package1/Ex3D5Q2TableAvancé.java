@@ -13,7 +13,7 @@ une lettre et une majuscule.
  */
 import java.io.IOException;
 
-public class Ex3D5V2TableAvancé {
+public class Ex3D5Q2TableAvancé {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * l’indice de cet entier dans le tableau est affiché.
  * Même question mais si il y a des occurences, le premier indice est affiché.
  */
-public class Ex3D3TableAvancé {
+public class Ex1Q3D3TableAvancé {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

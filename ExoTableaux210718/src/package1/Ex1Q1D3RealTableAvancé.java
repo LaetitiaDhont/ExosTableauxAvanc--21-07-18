@@ -7,7 +7,7 @@ package package1;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Ex1D3RealTableAvancé {
+public class Ex1Q1D3RealTableAvancé {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub

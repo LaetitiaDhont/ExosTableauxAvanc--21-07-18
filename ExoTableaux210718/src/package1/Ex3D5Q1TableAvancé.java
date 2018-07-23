@@ -14,7 +14,7 @@ Pour cette question, on ne considère que les lettres sans accent. Pour détermine
 une lettre, on utilise l’ordre sur les caractères. Est une lettre tout caractère compris entre ’a’ et ’z’ et entre
 ’A’ et ’Z’. Est un majuscule tout caractère compris entre ’A’ et ’Z’.
  */
-public class Ex3D5TableAvancé {
+public class Ex3D5Q1TableAvancé {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
